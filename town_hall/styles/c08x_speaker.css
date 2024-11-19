@@ -100,27 +100,31 @@ aside img {
 #nav_list ul { 
 	list-style: none;
 	margin-left: 0;
-	margin-bottom: 1.5em; 
+	margin-bottom: 1.5em;
 }
 #nav_list ul li { 
-	width: 23.53%; /* Converted from 200px out of 850px */
-	margin-bottom: .5em;
+	width: 90%; /* Set to a percentage for better responsiveness */
+	margin: 1em auto; /* Centering the boxes and providing vertical spacing */
+	padding: 1em; /* Increased padding for better spacing inside */
 	border: 2px double black;
 	border-radius: 10px;
 	box-shadow: 3px 3px 0 0 #800000;
+	background-color: #f6e6d8; /* Light background for better visibility */
 	background-image: url("../images/right.jpg");
 	background-repeat: no-repeat;
 	background-position: 95% center;
+	text-align: center; /* Center text within the boxes */
 }
 #nav_list ul li a {
 	display: block;
-	padding: .5em 0 .5em .5em;
+	padding: .5em 0; /* Ensure the clickable area has good spacing */
 	text-decoration: none;
 	font-weight: bold;
 	color: black;
 }
 #nav_list ul li a.current {
 	color: #800000;
+	font-style: italic; /* Emphasize the current selection */
 }
 
 /* the styles for the footer */
