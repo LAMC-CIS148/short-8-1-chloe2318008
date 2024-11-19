@@ -109,7 +109,6 @@ aside img {
 	border: 2px double black;
 	border-radius: 10px;
 	box-shadow: 3px 3px 0 0 #800000;
-	background-color: #f6e6d8; /* Light background for better visibility */
 	background-image: url("../images/right.jpg");
 	background-repeat: no-repeat;
 	background-position: 95% center;
