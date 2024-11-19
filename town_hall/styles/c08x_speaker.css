@@ -9,7 +9,8 @@ html {
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 850px;
+    width: 98%; /* Adjusted width */
+    max-width: 850px; /* Maximum width retained */
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
@@ -34,7 +35,7 @@ header h3 {
 }
 header img {
 	float: left;
-	padding: 0 30px;
+	padding: 0 3.53%; /* Converted from 30px to percentage */
 }
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
@@ -46,9 +47,9 @@ main {
 
 /* the styles for the section */
 section {
-	width: 575px;
+	width: 67.65%; /* Converted from 575px out of 850px */
 	float: right;
-	padding: 0 20px 20px 20px;
+	padding: 0 2.35% 2.35% 2.35%; /* Padding in percentages */
 }
 section h1 {
 	color: #800000;
@@ -70,15 +71,16 @@ article h2 {
 }
 article img {
 	float: right;
-	margin: .5em 0 1em 1em;
+	width: 50%; /* Scales to 50% of the article's width */
+	margin: 3.53% 0 7.06% 1.18%; /* Converted margins to percentages */
 	border: 1px solid black;
 }
 
 /* the styles for the aside */
 aside {
-	width: 215px;
+	width: 25.29%; /* Converted from 215px out of 850px */
 	float: right;
-	padding: 0 0 20px 20px;
+	padding: 0 0 2.35% 2.35%; /* Adjusted padding */
 }
 aside h2 {
 	color: #800000;
@@ -98,9 +100,10 @@ aside img {
 #nav_list ul { 
 	list-style: none;
 	margin-left: 0;
-	margin-bottom: 1.5em; }
+	margin-bottom: 1.5em; 
+}
 #nav_list ul li { 
-	width: 200px;
+	width: 23.53%; /* Converted from 200px out of 850px */
 	margin-bottom: .5em;
 	border: 2px double black;
 	border-radius: 10px;
@@ -124,15 +127,10 @@ aside img {
 footer {
 	background-color: #931420;
 	clear: both;
+}
+footer p {
+	text-align: center;
+	color: white;
+	padding: 1em 0;
+}
 
-}
-footer p {
-	text-align: center;
-	color: white;
-	padding: 1em 0;
-}
-footer p {
-	text-align: center;
-	color: white;
-	padding: 1em 0;
-}
